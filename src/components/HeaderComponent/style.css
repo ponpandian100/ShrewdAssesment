@@ -1,0 +1,117 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+ .HeaderLogo{
+   width:100px;
+   height:50px;
+   
+ } 
+.top-navigation{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+ .search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+  }
+
+  .search-bar-container :where(.css-dev-only-do-not-override-7ny38l).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+    border: none !important;
+    background: #f2f2f2 !important;
+   
+} 
+
+.search-bar-container :where(.css-dev-only-do-not-override-7ny38l).ant-input-group .ant-input {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: left;
+}
+  
+  .category-dropdown {
+    position: relative;
+    min-width: 150px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+  }
+.line{
+    width:4px;
+    background-color: #c2c2c2;
+    margin-top:7px;
+    margin-bottom:7px;
+    padding-top:3px;
+}
+.bg-grey{
+    background-color: #f2f2f2;
+}
+  .search-input {
+    background-color: #f2f2f2 !important;
+    border:none !important;
+    width: 250px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-bottom:9px;
+  }
+  
+
+
+.header-container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    
+  }
+  
+  .favorites,
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20px;
+  }
+  
+  .favorites span,
+  .cart span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .favorite-badge{
+    font-size:1px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    cursor: pointer;
+  
+
+  }
+  
+  .profile span {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  @media (max-width: 463px) {
+    .search-input {
+     width:20%;
+    }
+  }

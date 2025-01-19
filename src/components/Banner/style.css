@@ -1,0 +1,220 @@
+.background-green {
+  background-color: #d2efe1;
+}
+
+.container {
+  max-width: 1200px;
+ 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header{
+  margin-bottom:0;
+}
+
+.banner {
+  background-color: #d2efe1;
+  height: auto; 
+  overflow: hidden;
+  width: 100%;
+}
+
+.BannerLogo{
+  width:110px;
+}
+
+.banner .frame {
+  position: relative;
+}
+
+.banner .group {
+  position: absolute;
+  top: 18%;
+  left: 0%;
+  width: 7%; 
+}
+
+.banner .overlap {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; 
+}
+
+.banner .overlap-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.banner .img,
+.banner .group-2,
+.banner .group-3,
+.banner .group-4 {
+  position: absolute;
+}
+
+.banner .img {
+  width: 15%;
+  top: 80%;
+  left: 50%;
+}
+
+.banner .group-2 {
+  width: 10%;
+  top: 5%;
+  left: 25%;
+}
+
+.banner .group-3 {
+  width: 5%;
+  top: 100%;
+  left: 80%;
+}
+
+.banner .group-4 {
+  width: 10%;
+  top: 50%;
+  left: 50%;
+}
+
+.banner .content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.banner .main-heading {
+  text-align: left;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.banner .subtext {
+  color:#a6a6a6;
+  font-size: 16px;
+}
+
+.banner .button-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008d36;
+  border-radius: 8px;
+  color: white;
+  padding: 20px 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; 
+}
+
+.banner .button-primary:hover {
+  background-color: #e4fff2 !important; 
+  color: #008d36 !important; 
+}
+
+.banner .button-content img {
+  transition: all 0.3s ease-in-out; 
+}
+
+.banner .button-primary:hover .button-content img {
+  filter: brightness(0) saturate(100%) invert(49%) sepia(67%) saturate(441%) hue-rotate(102deg) brightness(96%) contrast(88%);
+
+}
+
+.banner .button-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.banner .overlap-group-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.banner .group-5,
+.banner .group-7{
+  width: 10%;
+  height:10%;
+}
+
+
+.banner .cartoon-shopping-cart {
+  transform: scaleX(-1);
+  position:absolute;
+  width:50%;
+  top:0%;
+  right:-8%;
+}
+
+
+@media (max-width: 1024px) {
+  .banner .main-heading {
+    font-size: 28px;
+  }
+
+  .banner .subtext {
+    font-size: 14px;
+  }
+
+  .banner .group {
+    width: 10%;
+ 
+  }
+
+  .banner .overlap-group-2 img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner .content {
+    text-align: center;
+  }
+
+  .banner .main-heading {
+    text-align:center;
+    font-size: 24px;
+  }
+
+  .banner .subtext {
+    font-size: 12px;
+  }
+  .banner button{
+   margin-left:25%
+  }
+  
+
+  .banner .group {
+    width: 12%;
+  }
+
+  .banner .overlap-group-2 img {
+    width:50%;
+   
+  }
+}
+
+@media (max-width: 480px) {
+ 
+
+  .banner .main-heading {
+    font-size: 20px;
+  }
+
+  .banner .subtext {
+    font-size: 12px;
+  }
+
+  .banner .group {
+    width: 15%;
+  }
+
+  .banner .overlap-group-2 img {
+    visibility: hidden;
+  }
+}
