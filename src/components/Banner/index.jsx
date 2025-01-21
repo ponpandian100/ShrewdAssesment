@@ -1,6 +1,6 @@
 import React from "react";
 import dRenderingCartoonShoppingCart1 from "../../assets/3d-rendering-cartoon-shopping-cart-1.png";
-import combinedShape from "../../assets/combined-shape.svg";
+import combinedShape from "../../assets/banner-cart.svg";
 import group2 from "../../assets/group-2.png";
 import group4 from "../../assets/group-4.png";
 import group6 from "../../assets/group-6.png";
@@ -54,7 +54,7 @@ export const Banner = () => {
                       src={combinedShape}
                     />
                   </div>
-                  <span className="button-text">Shop Deal Items</span>
+                  <span className="button-text mb-1">Shop Deal Items</span>
                 </div>
               </Button>
             </div>
